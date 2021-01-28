@@ -16,8 +16,8 @@ body {
     border-radius: 7px;
     grid-row: 2/4;
     grid-column: 2;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 120px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,8 +45,8 @@ body {
     border-radius: 7px;
     grid-row: 2/4;
     grid-column: 4;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 120px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -78,5 +78,8 @@ body {
 }
 
 .icon {
-    margin-right: 10;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
