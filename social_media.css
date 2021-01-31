@@ -1,0 +1,190 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.information_box {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.facebook {
+    background: whitesmoke;
+    grid-column: 2;
+    grid-row: 2;
+    border-top: 5px solid blue;
+    border-radius: 7px;
+    height: 200px;
+}
+
+.twitter {
+    background-color: whitesmoke;
+    grid-column: 3;
+    grid-row: 2;
+    border-top: 5px solid blue;
+    border-radius: 7px;
+    height: 200px;
+}
+
+.instagram {
+    background-color: whitesmoke;
+    grid-column: 4;
+    grid-row: 2;
+    border-top: 10px solid;
+    border-radius: 7px;
+    border-width: 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( 90deg, rgba(255, 244, 0, 1) 0%, rgba(255, 163, 2, 1) 35%, rgba(255, 25, 0, 1) 100%);
+    height: 200px;
+}
+
+.youtube {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 5;
+    grid-row: 2;
+    border-top: 5px solid red;
+    height: 200px;
+}
+
+.overview {
+    grid-column: 2/6;
+    grid-row: 3;
+}
+
+.page_views {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 2;
+    grid-row: 4;
+    height: 130px;
+}
+
+.likes_face {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 3;
+    grid-row: 4;
+    height: 130px;
+}
+
+.likes_ig {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 4;
+    grid-row: 4;
+    height: 130px;
+}
+
+.profile_views {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 5;
+    grid-row: 4;
+    height: 130px;
+}
+
+.retweets {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 2;
+    grid-row: 5;
+    height: 130px;
+}
+
+.likes_twitter {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 3;
+    grid-row: 5;
+    height: 130px;
+}
+
+.likes_yb {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 4;
+    grid-row: 5;
+    height: 130px;
+}
+
+.total_views {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    grid-column: 5;
+    grid-row: 5;
+    height: 130px;
+}
+
+.users {
+    position: relative;
+    left: 90px;
+    top: -20px;
+}
+
+.numbers {
+    position: relative;
+    font-size: 35px;
+    left: 50px;
+    bottom: 65px;
+}
+
+.followers {
+    position: relative;
+    left: 68px;
+    bottom: 120px;
+}
+
+.icon {
+    position: relative;
+    left: 65px;
+    top: 18px;
+}
+
+.social {
+    grid-column: 2/6;
+    grid-row: 1;
+}
+
+.icon2 {
+    position: relative;
+    bottom: 120px;
+    left: 78px;
+}
+
+.today {
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+}
+
+.likes {
+    position: relative;
+    left: 10px;
+}
+
+.icon3 {
+    position: relative;
+    left: 180px;
+    top: -40px;
+}
+
+.numbers2 {
+    position: relative;
+    left: 20px;
+    top: -30px;
+}
+
+.icon4 {
+    position: relative;
+    left: 150px;
+    top: -75px;
+}
+
+.percentagem {
+    position: relative;
+    left: 10px;
+    top: -32px;
+}
