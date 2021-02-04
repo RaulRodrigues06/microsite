@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\micorsite imagens\\microsite2020\\primeira-pagina\\images"
+		}
+	],
+    "settings": {
+        "liveServer.settings.port": 5501,
+        "liveServer.settings.multiRootWorkspaceName": "microsite"
+    }
+}
