@@ -83,3 +83,13 @@ body {
     margin-right: 15px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 500px) {
+    .supervisor,
+    .calculator,
+    .team_builder,
+    .karma {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
